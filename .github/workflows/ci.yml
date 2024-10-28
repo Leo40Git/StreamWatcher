@@ -3,7 +3,7 @@ name: Build (CI)
 on:
   push:
     branches-ignore:
-      - root
+      - main
       - develop
 
   pull_request:
