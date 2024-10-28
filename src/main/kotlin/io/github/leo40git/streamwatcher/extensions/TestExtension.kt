@@ -1,4 +1,4 @@
-package template.extensions
+package io.github.leo40git.streamwatcher.extensions
 
 import dev.kordex.core.commands.Arguments
 import dev.kordex.core.commands.converters.impl.coalescingDefaultingString
@@ -8,12 +8,11 @@ import dev.kordex.core.components.components
 import dev.kordex.core.components.publicButton
 import dev.kordex.core.extensions.Extension
 import dev.kordex.core.extensions.chatCommand
-import dev.kordex.core.extensions.event
 import dev.kordex.core.extensions.publicSlashCommand
 import dev.kordex.core.i18n.withContext
 import dev.kordex.core.utils.respond
-import template.TEST_SERVER_ID
-import template.i18n.Translations
+import io.github.leo40git.streamwatcher.TEST_SERVER_ID
+import io.github.leo40git.streamwatcher.i18n.Translations
 
 class TestExtension : Extension() {
 	override val name = "test"

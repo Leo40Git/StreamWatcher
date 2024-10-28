@@ -23,4 +23,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = "template"
+rootProject.name = "StreamWatcher"

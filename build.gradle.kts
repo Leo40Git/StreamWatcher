@@ -12,7 +12,7 @@ plugins {
 	id("dev.kordex.gradle.kordex")
 }
 
-group = "template"
+group = "io.github.leo40git"
 version = "1.0-SNAPSHOT"
 
 dependencies {
@@ -36,12 +36,12 @@ kordEx {
 		// See https://docs.kordex.dev/data-collection.html
 		dataCollection(DataCollection.Standard)
 
-		mainClass = "template.AppKt"
+		mainClass = "io.github.leo40git.streamwatcher.AppKt"
 	}
 
 	i18n {
-		classPackage = "template.i18n"
-		translationBundle = "template.strings"
+		classPackage = "io.github.leo40git.streamwatcher.i18n"
+		translationBundle = "streamwatcher.strings"
 	}
 }
 
