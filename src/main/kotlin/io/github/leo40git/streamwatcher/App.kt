@@ -23,11 +23,10 @@ suspend fun main() {
 		extensions {
 			add(::TestExtension)
 
-			if (ENVIRONMENT == "dev") {
+			if (ENVIRONMENT == "dev")
 				add(::DevEnvironmentExtension)
-   }
-	 }
+		}
 	}
 
- bot.start()
+	bot.start()
 }
